@@ -1,0 +1,31 @@
+.sidebar {
+    display: inline-block;
+    height: 100%;
+    width: 220px;
+    background-color: #334856;
+    float: left;
+    padding-top: 100px;
+    padding-bottom: 700px;
+   
+    
+  }
+  
+  aside a{
+    border: 1px solid white;
+    margin-left: auto;
+    color:white;
+    margin-right: 10px;
+    padding:5px 10px 5px 10px;
+    text-decoration:none;
+    font-size:8px;
+  }
+  
+  aside, h3{
+   color: white;
+   text-align: right;
+   padding-right:20px;
+  }
+  
+  aside p{
+    color:#668FAA;
+  }
