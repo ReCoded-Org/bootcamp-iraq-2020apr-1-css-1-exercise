@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+    h3 {
+        color: white;
+    }
+    div > p {
+        color: rgb(199, 218, 218);
+    }
+    .asidee {
+    background-color: rgb(69, 110, 126);
+    height: 100%;
+    width: 20%;
+    display: inline-block;
+    padding-top: 15%;
+    padding-right: 1.5%;
+    position: fixed;
+    overflow-x: hidden;
+    text-align: right;
+    }
+    .HaP {
+      text-decoration: none;
+      padding: 3px;
+      margin: 3px;
+      color: white;
+      display: inline-block;
+      border : 1px solid white;
+    }
+    main {
+      display:inline-block;
+      height: 0%;
+      width: 79%;
+      margin-left:22%; 
+    }
+    
