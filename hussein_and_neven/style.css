@@ -1,0 +1,56 @@
+
+
+*{
+  margin:0px;
+  paddig:0px;
+  
+  box-sizing:border-box;
+}
+.aside {
+  height: 100%;
+  width: 25%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #2f585e;
+  overflow-x: hidden;
+  padding-top: 20px;
+  text-align: right;
+}
+
+main {
+    background: #fff;
+    margin: 2% 30%;
+}
+.container {
+    margin: 5px;
+    vertical-align: top;
+}
+.aside h3{
+  color:white;
+  
+}
+.aside p{
+  color:cornflowerblue;
+  font-size:20px;
+}
+.aside a{
+  
+  border:2px solid cornflowerblue;
+  color:white;
+  text-decoration:none;
+  margin: 2px;
+  
+}
+
+main {
+    display:inline-block;
+    width: 68%;
+    position: relative;
+}
+
+
+
+
+
