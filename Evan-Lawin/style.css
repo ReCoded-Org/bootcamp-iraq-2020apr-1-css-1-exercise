@@ -1,0 +1,152 @@
+
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.6rem;
+   color: rgb(65,79,92);
+}
+p{
+    font-size: 15px;
+}
+body{
+
+    display: flex;
+    height: 200vh;
+    font-family: 'Bellota Text', cursive;
+}
+/* Styling the aside Section */
+/* Styling the aside Section */
+/* Styling the aside Section */
+.side-bar{
+
+    height: 100vh;
+    background-color: rgb(65,79,92);
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+}
+.side-bar-content{
+
+    margin-top: 90%;
+    text-align: right;
+    line-height: 1.5rem;
+}
+.side-bar-content h3{
+
+ color: white;
+}
+.side-bar-content p {
+
+    color: rgb(181,202,217);
+}
+.btn{
+
+    text-decoration: none;
+    color: white;
+    border: 1px solid rgb(181,202,217);
+    display: inline-block;
+    margin: 8px 0px 0px 8px;
+    font-size: 10px;
+    padding: 3px 4px;
+    transition: border 0.5s ;
+}
+.btn:hover{
+
+    border: 3px solid white;
+}
+
+/* Styling Main */
+/* Styling Main */
+/* Styling Main */
+main{
+
+    position: absolute;
+    left: 15%;
+    padding: 30px;
+}
+.pinned-post {
+
+    color: rgb(156, 158, 163);
+    border-bottom: 1px solid rgb(156, 158, 163);
+    display: block;
+    margin-bottom: 20px;
+}
+.gohan-photo{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    float: right;
+    vertical-align:top;
+    margin-top:-25px ;
+    cursor: pointer;
+
+}
+.clear{
+
+    clear: both;
+    margin-bottom: 15px;
+}
+.programming-lang {
+
+    cursor: pointer;
+    display: inline-block;
+    padding: 0px 4px;
+    font-size: 12px;
+    border-radius: 1px;
+    color: white;
+}
+.green{
+    background-color: rgb(115,183,101);
+
+}
+.blue
+{
+    background-color: rgb(88,133,203);
+}
+.pink{
+
+    background-color: rgb(206,63,83);
+}
+.third-section{
+    margin-top: 60px;
+}
+.clearfix:after{
+
+    display: block;
+    content: ".";
+    visibility: hidden;
+    clear: both;
+}
+.third-section{
+
+    margin-top: 35px;
+}
+
+.footer-wrapper{
+
+    text-align: center;
+}
+.planet{
+
+    width: 400px;
+    height: 270px;
+    display: inline-block;
+    margin: 0px 30px;
+    border-radius: 3px;
+ 
+}
+
+.table{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    
+}
