@@ -1,0 +1,115 @@
+.aside {
+    display: inline-block;
+    margin: 0px;
+    position: fixed;
+    background-color: rgb(79, 91, 148);
+    height: 100%;
+    width: 30%;
+    top: 0px;
+    left: 0px;
+  }
+  
+  h3 {
+    padding-top: 30%;
+    padding-left: 50%;
+    padding-right: 10%;
+    color: white;
+    text-align: right;
+  }
+  .idea {
+    padding-left: 20%;
+    padding-right: 10%;
+    color: white;
+    text-align: right;
+  }
+  .link {
+    display: inline;
+    float: right;
+    margin-right: 20%;
+  }
+  .home {
+    text-decoration: none;
+    border: 1px solid white;
+    color: white;
+    font-size: 10px;
+    padding: 5px 10px;
+    margin-left: 20%;
+  }
+  .project {
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 5px 10px;
+    color: white;
+    font-size: 10px;
+    margin-left: 5px;
+  }
+  
+  .main {
+    display: inline-block;
+    float: right;
+    width: 65%;
+  }
+  
+  .post {
+    color: gray;
+  }
+  .first {
+    font-size: 40px;
+  }
+  .not {
+    text-decoration: none;
+  }
+  .css {
+    background-color: #32cd32;
+    padding: 5px 15px;
+    color: white;
+    font-family: monospace;
+  }
+  .java {
+    background-color: #6495ed;
+    padding: 5px 15px;
+    color: white;
+    font-family: monospace;
+  }
+  .recent {
+    color: gray;
+  }
+  .script {
+    color: white;
+    background-color: #dc143c;
+    padding: 5px 10px;
+    font-family: monospace;
+  }
+  .places {
+    background-color: gray;
+    color: white;
+    padding: 5px 10px;
+    font-family: monospace;
+  }
+  .avatar {
+      float:right;
+    vertical-align:middle;
+    height:50px;
+    width:50px;
+    border-radius:50%;
+    margin:30px;
+  }
+  .header {
+      display:inline-block;
+  }
+ .image1 {
+     float:left;
+     width:45%;
+     height:215px;
+     margin:10px;
+     padding-top:50px;
+  }
+  .image2 {
+     width:45%;
+     height:100%;
+     }
+  .table {
+    display:inline;
+    color:gray;
+    
+  }
