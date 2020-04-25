@@ -55,7 +55,7 @@ main{
 
 main section .title{
   color:rgba(128, 128, 128, 0.4);
-  border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+  /* border-bottom: 1px solid rgba(128, 128, 128, 0.2); */
   display: block;
   font-size:.8em;
   letter-spacing: .1em;
