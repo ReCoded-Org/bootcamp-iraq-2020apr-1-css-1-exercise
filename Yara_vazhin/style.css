@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+body {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  font-family: 'Oswald', sans-serif;
+  grid-template-areas: 
+            "sidebar main";
+  transition: all 1s ease-out;
+}
+
+aside {
+  grid-area: sidebar;
+  background-color: darkgrey;
+  position: fixed;
+  height: 100vh;
+  z-index: 1;
+  left: 0;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+aside div {
+  padding-right: 20px;
+}
+
+main {
+  grid-area: main;
+  margin: 0;
+  padding: 5px;
+}
+
+.blog h3 {
+  color: white;
+}
+
+.blog p {
+  color: antiquewhite;
+}
+
+.blog a {
+ color: white;
+ border: 1px solid antiquewhite;
+ margin:4px;
+ padding:10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.headings {
+  font-size: 2rem;
+}
+
+.line {
+  display: block;
+  width: 100%;
+  color:gray;
+  border-bottom: 1px solid grey;
+}
+
+.box {
+  border: 0px solid white;
+  color:white;
+  background-color: red;
+  margin:4px;
+  padding:5px;
+  font-size: 10px;
+}
+
+.content {
+  font-family: serif;
+  font-size: 1.05rem;
+}
+
+#css {
+  background-color: green;
+}
+
+#js {
+  background-color:cornflowerblue; 
+}
+
+#places {
+  background-color: gray;
+}
+
+img + p
+{
+  color: grey;
+}
+
+img[alt="avatar"]
+{
+  height: 50px;
+  width: 50px;
+  float: right;
+  position: relative;
+  bottom: 70px;
+}
+
+img {
+  height: 300px;
+  width: 50%;
+}
+
+table{
+  color: gray;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left:auto; 
+  margin-right:auto;
+}
+
+.places-img
+{
+display:flex;
+align-items: center;
+padding: 10px;
+margin-left: 10px;
+margin-top: 20px;
+}
+
+.pic{
+  margin: 10px;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+  body {
+  display: grid;
+  grid-template-rows: 12vh 85vh;
+  grid-template-areas: 
+            "sidebar"
+            "main";
+}
+  aside {
+  grid-area: sidebar;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  width: 100vw;
+  height: 12vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.5rem;
+}
+  main {
+    width: 100vw;
+    font-size: 0.8rem;
+  }
+  .headings {
+  font-size: 1rem;
+  }
+  .content {
+  font-size: 0.8rem;
+  overflow: auto;
+  }
+  img[alt="avatar"]{
+  height: 20px;
+  width: 20px;
+  bottom: 75px;
+  margin-right: 20px;
+  }
+  .pic {
+  margin: 0 auto;
+  padding: 0;
+  height: 100px;
+  width: 200px;
+  }
+  .blog a {
+    margin: 2px;
+    padding: 4px;
+  }
+}
