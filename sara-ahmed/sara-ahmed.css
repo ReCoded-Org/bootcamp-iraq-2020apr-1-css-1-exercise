@@ -1,0 +1,41 @@
+#khkh{
+    background-color:rgb(47,79,79);
+  
+   display:block;
+    height:100%;
+     width:250px;
+    float:left;
+  
+    position:fixed;
+    text-align:right;
+    /*padding:0px 25px 25px 50px ;*/
+    top:0;
+    left:0;
+    padding-top: 100px;
+    padding-right:10px ;
+  
+  }
+  h3{
+    color:white;
+  }
+  #par{
+    font-family:serif;
+    color:lightblue;
+    text-align:right;
+    display: block;
+    
+  }
+  .boxing{
+    width: auto;
+    border: 1px solid lightblue;
+    padding: 5px;
+    margin: 1px;
+  }
+  .fontting{
+     text-decoration:none;
+    color:white;
+  }
+  main{
+      margin-left: 255px;
+  }
+  

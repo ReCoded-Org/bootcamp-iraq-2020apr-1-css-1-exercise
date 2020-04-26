@@ -1,0 +1,93 @@
+#khkh{
+    background-color:rgb(47,79,79);
+  
+   display:block;
+    height:1000px;
+     width:250px;
+    float:left;
+  
+    position:fixed;
+    text-align:right;
+    
+    top:0;
+    left:0;
+    padding-top: 100px;
+    padding-right:10px ;
+  
+  }
+  h3{
+    color:white;
+  }
+  #par{
+    font-family:serif;
+    color:lightblue;
+    text-align:right;
+    display: block;
+    
+  }
+  .boxing{
+    width: auto;
+    border: 1px solid lightblue;
+    padding: 5px;
+    margin: 1px;
+   
+  }
+  .fontting{
+     text-decoration:none;
+    color:white;
+  }
+  main{
+      margin-left: 300px;
+  }
+  
+  .pin {
+    color: lightslategray;
+  }
+  #logo {
+    width: 50px;
+    float:right;
+    border:1px solid pink;
+    border-radius: 50%;
+
+  }
+  .box{
+    /*border:4px solid green;*/
+    display: inline;
+    background-color: pink;
+    border:3px gray;
+    color:white;
+    padding:3px 5px 3px 5px;
+  }
+  .box1{
+    /*border:4px solid green;*/
+    display: inline;
+    background-color:lightblue;
+    border:3px gray;
+    padding:3px 5px 3px 5px;
+    color:white;
+  }
+  .box2{
+
+    display: inline;
+    background-color:lightsalmon;
+    border:3px gray;
+    padding:3px 5px 3px 5px;
+    color:white;
+  }
+  .text{
+    color:blue;
+    text-decoration: none;
+  }
+  .ch1{
+    color:gray;
+  }
+  .pic{
+    display: inline;
+  }
+  .foot{
+    display:inline;
+    text-align: center;
+    color:gray;
+    margin:400px;
+    
+  }
