@@ -1,0 +1,133 @@
+aside {
+    
+    position: fixed;
+    height: 100vh;
+    width: 250px;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    background-color: #3d4f5d;
+}
+
+.sidebar-content{
+
+    float: right;
+    text-align: right;
+    padding: 0px 16px 0px 10px;
+    display: block;
+    margin-top: 200px;
+}
+
+
+
+aside  div  h3 {
+    color: white;
+    padding: 0 0 0 0;
+    margin-bottom: 0;
+}
+
+aside  div  p {
+    color: #b0cadb;
+    padding-top: 0;
+    margin-top: 0;
+    
+}
+
+.button {
+    background-color: #3d4f5d; /* Green */
+    border: 2px solid #b0cadb;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+main {
+    margin-left: 270px;
+}
+
+.post-header{
+    color: lightgray;
+    font-size: small;
+    /* background-color: red; */
+    display: block;
+    border-bottom: solid 1px lightgray;
+    padding-bottom: 4px;
+    margin-top: 25px;
+}
+
+h2 {
+    font-size: xx-large;
+    margin-bottom: 0px;
+}
+
+.avatar {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    float: right;
+    margin-top: -44px;
+    margin-right: 25px;
+}
+
+.under-header{
+    color: gray;
+    margin-top: 0;
+    font-size: small;
+}
+
+p a {
+    text-decoration-line: none;
+    color: #2492ff;
+}
+
+.body-text {
+    color: #3d4f5d;
+    margin-right: 30px;
+}
+
+.green {
+    padding-right: 6px;
+    padding-left: 6px;
+    background-color:#00d900;
+    color: white;
+    font-size: medium;
+    text-align: center;
+}
+
+.red {
+    padding-right: 6px;
+    padding-left: 6px;
+
+    background-color:#ff2b2b;
+    color: white;
+    font-size: medium;
+    text-align: center;
+}
+.blue {
+    padding-right: 6px;
+    padding-left: 6px;
+    background-color:#0080ff;
+    color: white;
+    font-size: medium;
+    text-align: center;
+}
+
+.body-pics{
+    box-sizing: border-box;
+    width: 400px;
+    height: 400px;    
+}
+
+.fotter {
+    color: lightgray;
+    position: absolute; 
+    bottom: 60px;
+    left: 46%;
+}
