@@ -121,12 +121,13 @@ p a {
 
 .body-pics{
     box-sizing: border-box;
-    width: 45%;    
+    width: 400px;
+    height: 400px;    
 }
 
 .fotter {
     color: lightgray;
-    position: absolute;
+    position: absolute; 
     bottom: 60px;
     left: 46%;
 }
