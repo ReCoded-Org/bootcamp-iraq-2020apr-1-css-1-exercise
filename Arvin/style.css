@@ -1,0 +1,118 @@
+* {
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif; ;
+}
+
+aside {
+    position: fixed;
+    width: 280px;
+    background: #3D4F5D;
+    height: 100vh;
+    display: inline-block;
+}
+aside div {
+    text-align: right;
+    margin-top: 190px;
+    margin-right: 20px;
+}
+aside  h3 {
+    font-size: 2rem;
+    color: white;
+}
+aside  p {
+    font-size: 20px;
+    color: #A8C8DB;
+    margin-top: 10px;
+}
+.btn-aside {
+    margin: 20px 1px;
+}
+.btn {
+    padding: 10px 11px;
+    margin: 5px 5px;
+    font-size: 12px;
+    text-decoration: none;
+    border: 2px solid #9BB3C4;
+    color: white;
+}
+
+
+span {
+    color: rgb(161, 159, 159);
+    font-size: 12px;
+}
+hr {
+    color: rgb(211, 211, 211);
+}
+main {
+    display: inline-block;
+    margin-left: 250px;
+}
+section {
+    margin: 30px;
+}
+.main {
+    margin: 30px;
+}
+.pic {
+    float: right;
+    width: 50px;
+    border-radius: 50%;
+}
+.head-of-paragraph {
+    font-size: 30px;
+    display : inline-block;
+    margin-bottom: 10px;
+}
+.head {
+    color: rgb(150, 148, 148);
+    font-size: 14px;
+
+}
+.head a {
+    text-decoration: none;
+}
+.css {
+    display: inline-block;
+    background: #A8C8DB;
+    color: white;
+    border-radius: 5px;
+    padding: 3px 5px;
+}
+.js {
+    display: inline-block;
+    background: rgb(226, 205, 146);
+    color: white;
+    border-radius: 5px;
+    padding: 3px 5px;
+}
+
+.paragraph {
+    font-size: 17px;
+    margin: 20px 0;
+    font-family: sans-serif;
+}
+
+.text {
+    display: inline-block;
+    background: rgb(226, 205, 146);
+    color: white;
+    border-radius: 5px;
+    padding: 3px 5px;
+}
+.img {
+    width: 400px;
+    height: 350px;
+    margin:30px 18px
+}
+
+ .contact{
+    margin-top: 50px;
+    margin-bottom: auto; 
+    margin-left: 35%;
+    color:rgb(163, 157, 157);
+    font-size: 28px;
+    
+}
