@@ -1,0 +1,48 @@
+aside div {
+    display: inline-block;
+    width: 300px;
+    height: 100%;
+    background-color: gray;
+    position: fixed;
+    
+}
+aside h3 {
+    position: relative;
+    align-items: center;
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 100px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+aside p {
+    position: relative;
+    align-items: center;
+    text-align: end;
+    text-align: center;
+   margin-top: -20px;
+    margin-left: 70px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    
+    
+    
+
+}
+.link-1 {
+    text-decoration: none;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border: 1px solid white;
+    margin: 20px 10px 0 0 ;
+    top: 20px;
+
+}
+
