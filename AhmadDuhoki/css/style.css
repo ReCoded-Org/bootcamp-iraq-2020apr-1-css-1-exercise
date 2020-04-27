@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+aside{
+    float: left;
+    width: 15%;
+    height: 100vw;
+    background-color: #3D4F5D;
+}
+
+#myblog{
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #49B4E2;
+}
+
+.nav-links{
+    display: inline-block;
+    font-size: 12px;
+    border: 2px solid #B0CADB;
+    padding: 4px 8px;
+    margin-top: 9px;
+    margin-right: 5px;
+    color: white;
+    text-transform: uppercase;
+    float: right;
+}
+
+.nav-links:hover{
+    background-color: #B0CADB;
+}
+
+p.aside-par{
+    font-size: 20px;
+    color: #B0CADB;
+    text-align: right;
+}
+
+.nav-bar{
+    text-align: right;
+    float: right;
+    margin-top: 80%;
+    margin-right: 10%;
+}
+
+main{
+    float: left;
+    width: 80%;
+    margin: 20px 40px;  
+}
+
+.horln{
+    color: #C0D2D2;
+    margin-top: 4px;
+    height: 1px;
+    opacity: 50%;
+}
+
+.opa{
+    display: block;
+    color: #C0D2D2;
+    font-size: 13px;
+    opacity: 100%;
+    margin-top: 40px;
+}
+
+.avatar{
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: -35px;
+}
+
+.headings{
+    margin-top: 25px;
+    font-size: 30px;
+}
+
+.subhead{
+    font-size: 13px;
+    color: gray;
+    margin-bottom: 25px;
+}
+
+.css{
+    display: inline-block;
+    background-color: green;
+    color: white;
+    padding: 1px 8px;
+    margin: 0px 3px;
+}
+
+.js-blue{
+    display: inline-block;
+    background-color: darkblue;
+    color: white;
+    padding: 1px 8px;
+    margin: 0px 3px;
+}
+
+.js-red{
+    display: inline-block;
+    background-color: darkred;
+    color: white;
+    padding: 1px 8px;
+    margin: 0px 3px;
+}
+
+p{
+    text-align: justify;
+}
+
+.photo-par{
+    margin-top: 5%;
+}
+
+.nvp{
+    display: inline-block;
+    background-color: darkgray;
+    color: white;
+    padding: 1px 8px;
+    margin: 0px 3px;
+}
+
+.imgs{
+    width: 570px;
+    height: 400px;
+}
+
+#footer{
+    color: gray;
+    width: 23%;
+    margin: 100px auto;
+}
