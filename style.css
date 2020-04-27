@@ -1,0 +1,32 @@
+div.sidebar {
+    background-color: #175361;
+    height: 1000px;
+    width: 30%;
+    padding-right: 20px;
+    text-align: right;
+    float: left;
+    display: block;
+  }
+  .any {
+    font-size: 20px;
+    border: 2px solid white;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: white;
+    margin: 15px;
+  }
+  .any1 {
+    font-size: 20px;
+    border: 2px solid white;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: white;
+  }
+  h3 {font-size:34px;
+    color: white;
+    font-family: sans-serif;
+  }
+  p {font-size:24px;
+    color: white;
+  }
+  
