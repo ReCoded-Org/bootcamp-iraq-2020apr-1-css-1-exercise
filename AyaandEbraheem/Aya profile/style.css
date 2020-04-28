@@ -1,0 +1,117 @@
+*{ margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+  }
+  a{
+   text-decoration: none;
+  }
+  .logo{
+    width:60px;
+    height:60px; 
+    text-decoration: none;
+    margin-left:360px;
+  }
+  .headnav{
+    float:right;
+    margin-right: 360px;
+    margin-top: 20px;
+  }
+  .headnav1{
+    float:right;
+    margin-right: 360px;
+    margin-top: 60px;
+  }
+  .headnav1-white,.headnav-blue{
+    text-decoration: none;
+    color:black;
+    border:1px solid pink;
+    padding:5px;
+    border-radius: 5px;
+    background-color:pink;
+  }
+  .headnav1-blue,.headnav-white{
+    text-decoration: none;
+    color:black;
+    border:1px solid pink;
+    padding:5px;
+    border-radius: 5px;  
+  }
+  .headnav-white1:hover{
+  background-color: lightpink;
+  }
+  .headnav-blue1:hover{
+  background-color: lightpink;
+  }
+  .cover{
+    width:60%;
+    height:300px;
+    margin:0 auto;
+    background-image: url('https://i.pinimg.com/originals/4d/5c/ea/4d5cea38896caf36d5a233f4a36f8f2c.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+  }
+  .profile img{
+    border-radius:50%;
+    position:absolute;
+    height:110px;
+    width:110px;
+    top:300px;
+    left:360px;
+    border:2px solid white;
+  }
+  .profile h3{
+    position:absolute;
+    left:500px;
+    top:400px;
+  }
+  .profile p{
+    position: absolute;
+    left:500px;
+    top:430px;
+    color:grey;
+  }
+  .horizon hr {
+    width:50%;
+    margin:0 auto;
+   border-top:1px solid grey;
+   margin-top: 120px;
+  }
+.fol{
+  margin-top:10px;
+  font-size:20px;
+  margin-left:380px;
+}
+.fol span{
+  color: grey; 
+}
+.follower{
+  margin-left: 400px;
+  margin-top:40px ;
+}
+.followenumb{
+  border-radius:50%;
+  height:50px;
+  width:50px;
+  margin-left:-20px;
+  border:2px solid white;
+}
+#img1{
+  border:2px solid white;
+  border-radius: 50%;
+  height:50px;
+  width:50px;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left:-20px;
+  z-index: 1000px;
+  overflow:hidden;
+  background-color:	#D3D3D3;
+}
+#img1::before{
+  content:"+3";
+  font-size:1.8rem; 
+  margin-top:35px;
+  margin-left:10px;
+  
+}
