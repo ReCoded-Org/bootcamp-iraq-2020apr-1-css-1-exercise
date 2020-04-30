@@ -1,13 +1,12 @@
 .blog{
-    float:left;
-    height: 1000px;
-    background-color:grey;
-    width:200px;
-    
-    padding-top:40px;
-    text-align: right;
-      padding-right:20px;
-       
+  position: fixed;
+  width: 20%;
+  background:grey;
+  height: 100%;
+  display: inline-block;
+  text-align: right;
+  padding-top: 10%;
+  padding-right:10px;
   }
   h3{
     color:white;
@@ -15,20 +14,77 @@
   .title{
     color:white;
   }
+  .css{
+      background-color: rgb(93, 209, 47);
+     ;
+padding-left:4px ;
+padding-right:4px ;
+      color: white;
+  }
+  .Nvisit{
+    background-color:gray;
+    ;
+padding-left:4px ;
+padding-right:4px ;
+     color: white;
+  }
+  .place{
+    width: 490px;
+    height: 350px;
+    margin: 17px;
+  }
+  a{text-decoration: none;}
+  .avatar{
+    width:45px;
+    height:45px;
+    margin-left: 80%;
+  }
+  .js{
+      background-color: rgb(46, 109, 190);
+      padding-right: 4px;
+      padding-left: 4px;
+      color: white;
+  }
+  .jsr{
+      background-color: rgb(211, 57, 57);
+      padding-left:4px ;
+padding-right:4px ;
+      color: white;
+  }
+  hr{
+     color:rgb(233, 227, 227);
+      width: 98%;
+      margin-left: 0%;
+      opacity: 0.2;
+  }
+  .hed{
+      opacity: 0.3;
+      padding-top: 30px;
+  }
   .surounding{
     border:1px solid white;
     text-decoration:none;
     color:white;
     padding:5px;
     margin:5px;
-    text-size:10px;
-    
-    
-    
+    font-size:10px;
   }
   body{
     margin:0px;
+    position: relative;
   }
   .newclass{
-    padding-left:300px;
+    padding-left: 25%;
   }
+  h2{
+    font-size: 30px;
+  }
+  .row{
+    margin-left: 37%;
+  }
+  td{
+    opacity: 0.3;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+ 
