@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+      display:flex;
+      height:100%;
+      font-family:Arial, Helvetica, sans-serif;
+    }
+    aside {
+      background-color:#3d4f5d;
+      flex: 1;
+      width: 15%;
+      height: 100vw;
+      position: fixed;
+      left: 0;
+      top: 0;
+    }
+  
+    .change{
+      width: 95%;
+      display: flex;
+      margin-top: 200px;
+      align-items: flex-end;
+      flex-direction: column;
+      justify-content: right;
+      text-align: right;
+      color: white;
+    }
+    aside p{
+      color:lightblue;
+      margin-bottom: 15px;
+    }
+    .link {
+      background-color:#3d4f5d;
+      color: white;
+      padding: 6px 10px;
+      text-align: center;
+      text-decoration: none;
+      border:1.5px solid lightblue;
+      margin:5px 0px 5px 5px;
+      font-size: 10px;
+    }
+    main{
+      position: relative;
+      flex:3;
+      width:85%;
+      position: absolute;
+      left: 15%;
+      padding: 28px;
+    }
+    .grayText{
+      color: rgb(144, 161, 179);
+      font-size: small;
+  
+    }
+  img[alt="avatar"]{
+    border-radius: 50%;
+    float: right;
+    width: 60px;
+    height: 60px; 
+  }
+  .spans{
+    color: white;
+    padding:2px 8px;
+  }
+  .spancss{
+    background-color: green;
+  }
+  .js1{
+    background-color: blue;
+  }
+  .js2{
+  background-color: red;
+  }
+  .js3{
+    background-color: gray;
+  }
+  a{
+    text-decoration: none;
+    color:rgb(46, 46, 207);
+  }
+  
+  .organize{
+   display: inline-block;
+    width: 45%;
+    height: 400px;
+    margin:10px 10px ;
+  }
+  .footerTable{
+    margin-left: 30%;
+    margin-bottom:1%;
+    margin-top: 5%;
+  }
