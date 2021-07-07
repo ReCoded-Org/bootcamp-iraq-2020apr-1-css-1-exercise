@@ -1,0 +1,117 @@
+ *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} 
+
+body{
+  width: 100%;
+}
+aside{
+  width: 20%;
+  height: 100vh;
+  background-color: rgb(61	,79	,93	);
+  float: left;
+  position: fixed;
+
+}
+aside div{
+margin: 40vh 2vh 0% 0%;
+text-align: right;
+}
+aside h3{
+color: white;
+margin: 5px;
+font-size: 30px;
+
+}
+aside p{
+  color: rgb(176	,202	,219	);
+  font-size: 16px;
+
+  margin: 10;
+  padding: 5px;
+
+  }
+a{
+  color: rgb(176	,202	,219	);
+  text-decoration: none;
+}
+aside a{
+    color: white;
+    margin: 15px 0 0 15px; 
+    padding: 5px;
+    border: 2px solid rgb(176	,202	,219	);
+    text-decoration: none;
+}
+main{
+  padding-top: 2%;
+margin-left: 22%;
+  width: 70%;
+}
+
+section > span{
+  display: block;
+  color: lightgray;
+  border-bottom: 1px solid lightgray;
+  margin-top: 1%;
+
+}
+
+img[alt="avatar"]{
+  float: right;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-top: -20px;
+}
+img{
+  height: 400px;
+  width:45%;
+  object-fit: fill;
+  margin-top: 1%;
+
+}
+
+section h2{
+  margin-top: 1%;
+
+}
+section:last-child {
+  position: relative;
+}
+section p {
+  margin-top: 1%;
+}
+
+table{
+  bottom: -14%;
+  position: absolute;
+  padding-left: 35%;
+  color: lightgray;
+}
+
+.green-span{
+background-color: rgb(90,186,89)	;
+padding: 2px 8px;
+color: white;
+}
+.red-span{
+background-color: rgb(223,	45,	79	);
+padding: 2px 8px;
+color: white;
+
+
+}
+.cyan-span{
+  background-color: rgb(77,133,209	);
+  padding: 2px 8px;
+  color: white;
+
+}
+.gray-span{
+  background-color: rgb(153	,153	,153	);
+  padding: 2px 8px;
+  color: white;
+
+}
